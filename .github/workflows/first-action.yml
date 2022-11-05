@@ -1,0 +1,12 @@
+# This is a basic workflow to help you get started with Actions
+
+name: First Workflow
+on: workflow_distpatch
+jobs: 
+  first-job:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Print greeting
+        run: echo "Hello world"
+      - name: Print goodbaye
+        run: echo "Bye"
